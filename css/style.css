@@ -1,0 +1,404 @@
+@font-face{
+	font-family: Threedimensional;
+	src: url('../fontes/Threedimensional.ttf');
+}
+
+@font-face{
+	font-family: Retroica;
+	src: url('../fontes/Retroica.ttf');
+}
+
+@font-face{
+	font-family: Recoleta;
+	src: url('../fontes/Recoleta.otf');
+}
+
+@font-face{
+	font-family: Oxford;
+	src: url('../fontes/Oxford.ttf');
+}
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	max-width: 100%;
+}
+body{
+	background-color: #53647e;
+}
+
+
+/*Logo*/
+#search{
+	padding-top: 50px
+}
+
+#searchbar{
+	width: 200px;
+}
+
+#Logobar{
+	width: 100%;
+}
+
+#Logo{
+	padding-left: 30px; 
+}
+
+#logo1{
+	font-family: Retroica;
+	color: #e0e3e5;
+	text-shadow: 5px 5px #000000;
+	padding-top: 35px;
+	margin-bottom: -20px;
+	padding-left: 25px;
+}
+
+#logo2{
+	font-family: Threedimensional;
+	font-size: 5.5em;
+	margin-top: 0px;
+	color: #F59102;
+}
+
+#searchbtn{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+/*Fimlogo*/
+
+/* Carrosel */
+.carousel-caption{
+	background-color: rgb(000,000,000,0.5)
+}
+#cont2{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#left h5{
+	margin-top: 10px;
+}
+
+#left{
+	border-radius: 10px;
+	font-size: 18px;
+	background-color: #F5A402 !important;
+	color: black;
+	margin-top: 10px;
+	padding-left: 15px;
+}
+/*FimCarrosel*/
+
+/* Navegação */
+
+#nav{
+	background-color: #F5A402 !important;
+}
+
+.nav-item a{
+	margin-left: 100px;
+	color:  #000000 !important;
+	font-family: Recoleta;
+
+}
+
+.nav-item a:hover, a:active{
+	line-height: 20px;
+	color: white !important;
+}
+
+.dropdown-menu a{
+	margin-left: 0px !important
+}
+
+/*Fim navegação*/
+
+
+
+/*footer*/
+.footer {
+    left: 0px;
+    bottom: 0;
+    width: 100%;
+    background-color: #F5A402;
+}
+
+#apoie{
+	padding-top: 0px;
+	padding-left: 0px;
+	color: blue;
+	text-decoration: underline; 
+}
+.contatos{
+	margin-top: 30px;
+}
+
+.contatos ul{
+	list-style: none;
+}
+
+.contatos p{
+	color: #545454;
+}
+
+#contacts1 p{
+	float: left;
+}
+
+#facebook{
+	width: 35px;
+	border-radius: 25px;
+	height: 35px;
+	margin-left: 40px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 20px;
+}
+
+#facebook i{
+	margin-left: 5px;
+	margin-top: 2px;
+}
+
+
+#instagram{
+	width: 35px;
+	border-radius: 25px;
+	height: 35px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 20px;
+}
+
+#instagram i{
+	padding-left: 6px;
+	padding-top: 2px;
+}
+
+#twitter{
+	width: 35px;
+	border-radius: 25px;
+	height: 35px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 20px;
+}
+
+#twitter i{
+	padding-left: 4px;
+	padding-top: 2px;
+}
+
+.btn-info{
+	color: white !important;
+}
+
+.footer h5{
+	text-align: center;
+	color: black;
+	margin-top: 20px;
+}
+
+.contatos i{
+	font-size: 1.4rem;
+	margin-right: 12px;
+}
+
+#contacts3 {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+ #contacts3 i{
+	float: left;
+	color: black;
+}
+
+.direitos{
+	text-align: center;
+	padding-top: 30px;
+}
+/* FimFooter*/
+
+/* Personagens*/
+#per{
+	margin-top: 140px;
+	margin-bottom: 100px;
+}
+
+#per h1{
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+#per img{
+	border-radius: 50%;
+	border-style: solid;
+	width: 800px;
+	height: 350px;
+}
+
+#per img:hover{
+	border-color: white;
+	padding-bottom: 2px;
+}
+
+
+/*------*/
+
+/*Loja*/
+
+#midle{
+	background-color: white;
+	margin-top: 30px;
+	border-radius: 5px;
+}
+
+#item1 img{
+	width: 200px;
+	height: 300px;
+	margin: 60px 0px 60px 20px;
+	border-style: solid;
+
+}
+
+#item2{
+	margin: 50px 0px 0px 0px;
+	font-size: 14.5px;
+
+}
+
+#item3 button{
+	margin: 180px 0 0 80px;
+	Color: black;
+}
+
+#stor{
+	border-style: solid;
+	max-width: 120%
+
+}
+
+/* Fale conosco*/
+#midle2{
+	margin-top: 30px;
+	border-radius: 5px;
+	
+}
+
+#midle2 h1{
+		margin-top: 30px;
+		text-align: center;
+		color: white;
+		text-shadow: 2px 2px 4px #000000;
+		font-family: Recoleta;
+}
+
+#submit button{
+	margin-top: 20px;
+	margin-left: 100px;
+	background-color: #F5A402 !important;
+	color: black;
+	border-color:  #F5A402;
+	width: 80px;
+	height: 45px;
+}
+
+#midle2 label{
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+#about1 button{
+	background-color: #F5A402 !important;
+	color: black;
+	border-color:  #F5A402;
+	
+}
+
+/* novidades*/
+#midleimg img{
+	width: 600px;
+	height: 400px;
+	margin-top: 50px;
+}
+
+#midlen{
+	background-color: white;
+	margin-top: 30px;
+	border-radius: 10px;
+}
+
+#midlen h1{
+	font-family: Oxford;
+	margin-top: 60px;
+	margin-left: 20px;
+	font-size: 65px;
+}
+
+#midlen a:hover, a:active{
+ color: #808080;
+}
+
+#midlen p{
+
+	margin-top: 60px;
+	margin-left: 20px;
+}
+
+#simg img{
+	width: 450px;
+	height: 300px;
+	margin-top: 50px;
+	margin-left: 10px;
+}
+
+#midlen h2{
+	margin-top: 60px;
+	font-weight: bold;	
+}
+
+#eimg{
+	float: left;
+	width: 150px;
+	height: 100px;
+	margin-top: 55px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+}
+
+#etxt{
+	font-weight: bold;
+
+
+}
+
+#eimg a:hover, a:active{
+ color: #808080;
+}
+
+/*sobre*/
+
+#sobre{
+	background-color: white;
+	margin-top: 30px;
+	border-radius: 10px;
+}
+
+#sobre img{
+	height: 260px;
+	margin-top: 30px;
+
+}
+
+#sobre p{
+	margin-top: 30px;
+	font-size: 18px;	
+}
